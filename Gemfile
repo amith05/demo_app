@@ -5,6 +5,8 @@ gem 'rails', '4.0.0'
 
 gem 'bootstrap-sass', '2.1'
 
+gem 'bcrypt-ruby', '3.0.1'
+
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 
@@ -41,9 +43,7 @@ group :test do
   gem 'capybara', '1.1.2'
 end
 
-group :development do
-	gem 'annotate' , '2.5.0'
-end
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
